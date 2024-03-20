@@ -29,7 +29,7 @@ export default function initMenuButton() {
         navItems.forEach((item, key) => {
             setTimeout(() => {
                 item.classList.toggle('is-active')
-            }, key  * itemApearTime + 100);             
+            }, key  * itemApearTime + itemApearTime);             
         })
     }
 
