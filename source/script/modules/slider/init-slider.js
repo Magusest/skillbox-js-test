@@ -44,6 +44,4 @@ const buttonPrev = sliderContainer.querySelector('[data-card-slider="prev"]');
       buttonPrev.addEventListener('click', () => swiper.slidePrev(500, true))
 
       return swiper;
-
 }
-
