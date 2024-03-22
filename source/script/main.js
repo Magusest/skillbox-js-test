@@ -2,11 +2,15 @@ import "../scss/style.scss"
 import "./utils/prism.js";
 import {iosVhFix} from "./utils/ios-vh-fix.js";
 import initMenuButton from "./modules/header/init-page-menu";
+import initRennderCards from "./modules/filter/init-filter";
+import initSlider from "./modules/slider/init-slider";
 
 window.addEventListener('DOMContentLoaded', () => {
   iosVhFix();
 
   window.addEventListener('load', () => {
     initMenuButton();
+    initRennderCards();
+    initSlider();
   });
 });
